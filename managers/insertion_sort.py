@@ -18,4 +18,4 @@ class InsertionSorter:
                 swap_elements(list_of_objects, sorted_element_index + 1, sorted_element_index)
                 InsertionSorter.swap_count += 1
                 sorted_element_index -= 1
-            list_of_objects[sorted_element_index + 1] = edge_element
+
